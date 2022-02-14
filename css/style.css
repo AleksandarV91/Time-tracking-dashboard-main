@@ -255,7 +255,7 @@ button {
   .container {
     display: flex;
     margin-left: 5%;
-    max-width: 1110px;
+    max-width: 1200px;
   }
 
   .owner-container {
@@ -332,5 +332,11 @@ button {
   .tab-info {
     padding: 42px 24px;
     gap: 10px;
+  }
+}
+
+@media screen and (min-width: 1137px) {
+  .tab {
+    width: 255px;
   }
 }
